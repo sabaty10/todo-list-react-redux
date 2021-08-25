@@ -1,0 +1,62 @@
+.make-to-do-container {
+  width: 60%;
+  margin: 200px auto 50px;
+  height: 50px;
+  display: flex;
+}
+.todo-input {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px 0 0 10px;
+  color: azure;
+  width: 80%;
+  background: rgba(75, 167, 243, 0.151);
+  box-shadow: 0px 0px 10px rgb(192, 195, 195);
+  font-size: 1.2rem;
+  padding: 15px;
+  text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+.todo-input:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px rgb(205, 255, 255);
+}
+.create-todo {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0 10px 10px 0;
+  width: 20%;
+  background: rgba(4, 8, 12, 0.151);
+  box-shadow: 0px 0px 10px rgb(192, 195, 195);
+  color: azure;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.edit-todo {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0 10px 10px 0;
+  width: 20%;
+  background: rgba(4, 8, 12, 0.151);
+  box-shadow: 0px 0px 10px rgb(192, 195, 195);
+  color: azure;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+}
+.select-button {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 20%;
+  background: rgba(4, 8, 12, 0.151);
+  box-shadow: 0px 0px 10px rgb(192, 195, 195);
+  color: azure;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 15px;
+  padding-left: 45px;
+}
+.select-button:focus {
+  outline: none;
+}
+.select-button option {
+  color: black;
+}
